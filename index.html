@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Modern Reads — Online Bookstore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="brand">
+      <div class="logo">MR</div>
+      <div>
+        <h1>Modern Reads</h1>
+        <div style="font-size:12px;color:var(--muted)">Curated growth & productivity library</div>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <div class="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <path d="M21 21l-4.35-4.35" stroke="rgba(255,255,255,0.5)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+          <circle cx="11" cy="11" r="5" stroke="rgba(255,255,255,0.5)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></circle>
+        </svg>
+        <input placeholder="Search books (e.g. Deep Work)" />
+      </div>
+      <button class="cta">My Library</button>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-card">
+      <h2>Transform your life — one page at a time</h2>
+      <p>Powerful books on habits, productivity, wealth, and focus. Hand-picked titles to sharpen your mind and accelerate results. Browse, preview, and add to your collection.</p>
+      <a class="shop-btn" href="#books">Browse Collection</a>
+    </div>
+
+    <aside class="featured">
+      <div class="cover">
+        <img src="assets\Atomic Habits.jpg" class="main-img">
+        <img src="assets/Atomic Habits.png" class="hover-img">
+        <span class="tag">Librarian's pick</span>
+        <a href="assets/Atomic Habits.pdf">
+          <h3>Atomic Habits — James Clear</h3>
+        </a>
+        <p>Small changes compound into remarkable results. A modern classic on building systems for success.</p>
+      </div>
+    </aside>
+  </section>
+
+  <main id="books" class="grid">
+
+  <!-- Book 1 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">Atomic Habits</div></div>
+    <div class="image-box">
+      <img src="assets/Atomic Habits.jpg" class="main-img">
+      <img src="assets/Atomic Habits.png" class="hover-img">
+    </div>
+    <div class="book-title">Atomic Habits</div>
+    <div class="author">James Clear</div>
+    <div class="price-row"><div class="price">₹249</div>
+    <a href="assets/Atomic Habits.pdf">
+      <button class="add">📖</button>
+    </a>
+    </div>
+  </article>
+
+  <!-- Book 2 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">Ikigai</div></div>
+    <div class="image-box">
+      <img src="assets/Ikigai.jpeg" class="main-img">
+      <img src="assets/Ikigai.png" class="hover-img">
+    </div>
+    <div class="book-title">Ikigai</div>
+    <div class="author">Héctor García & Francesc Miralles</div>
+    <div class="price-row"><div class="price">₹199</div>
+    <a href="assets/Ikigai.pdf">
+      <button class="add">📖</button>
+    </a>
+    </div>
+  </article>
+
+  <!-- Book 3 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">48 Laws</div></div>
+    <div class="image-box">
+      <img src="assets/The 48 Laws of Power.jpg" class="main-img">
+      <img src="assets/The 48 Laws of Power.png" class="hover-img">
+    </div>
+    <div class="book-title">The 48 Laws of Power</div>
+    <div class="author">Robert Greene</div>
+    <div class="price-row"><div class="price">₹399</div>
+    <a href="assets/The 48 Laws Of Power.pdf">
+      <button class="add">📖</button>
+    </a>
+    </div>
+  </article>
+
+  <!-- Book 4 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">Psychology</div></div>
+    <div class="image-box">
+      <img src="assets/The Psychology of Money.jpg" class="main-img">
+      <img src="assets/Psychology of Money.png" class="hover-img">
+    </div>
+    <div class="book-title">The Psychology of Money</div>
+    <div class="author">Morgan Housel</div>
+    <div class="price-row"><div class="price">₹199</div>
+    <a href="assets/The_Psychology_of_Money.pdf">
+      <button class="add">📖</button>
+    </a>
+  </div>
+  </article>
+
+  <!-- Book 5 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">Deep Work</div></div>
+    <div class="image-box">
+      <img src="assets/Deep Work.jpeg" class="main-img">
+      <img src="assets/Deep Work.png" class="hover-img">
+    </div>
+    <div class="book-title">Deep Work</div>
+    <div class="author">Cal Newport</div>
+    <div class="price-row"><div class="price">₹249</div>
+    <a href="assets/Deep Work.pdf">
+      <button class="add">📖</button>
+    </a>
+  </div>
+  </article>
+
+  <!-- Book 6 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">Think & Grow</div></div>
+    <div class="image-box">
+      <img src="assets/Think and Grow Rich.jpg" class="main-img">
+      <img src="assets/Think and Grow Rich.png" class="hover-img">
+    </div>
+    <div class="book-title">Think and Grow Rich</div>
+    <div class="author">Napoleon Hill</div>
+    <div class="price-row"><div class="price">₹229</div>
+    <a href="assets/Think and Grow Rich.pdf">
+      <button class="add">📖</button>
+    </a>
+  </div>
+  </article>
+
+  <!-- Book 7 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">4 Hour</div></div>
+    <div class="image-box">
+      <img src="assets/The 4-Hour Workweek.jpg" class="main-img">
+      <img src="assets/The 4 Hour Work Week.png" class="hover-img">
+    </div>
+    <div class="book-title">The 4-Hour Workweek</div>
+    <div class="author">Tim Ferriss</div>
+    <div class="price-row"><div class="price">₹149</div>
+    <a href="assets/The 4 Hour Work Week.pdf">
+      <button class="add">📖</button>
+    </a>
+  </div>
+  </article>
+
+  <!-- Book 8 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">Can't Hurt</div></div>
+    <div class="image-box">
+      <img src="assets/Can't Hurt Me.jpg" class="main-img">
+      <img src="assets/Can't hurt me.png" class="hover-img">
+    </div>
+    <div class="book-title">Can't Hurt Me</div>
+    <div class="author">David Goggins</div>
+    <div class="price-row"><div class="price">₹299</div>
+    <a href="assets/Can't Hurt Me.pdf">
+      <button class="add">📖</button>
+    </a>
+  </div>
+  </article>
+
+  <!-- Book 9 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">GTD</div></div>
+    <div class="image-box">
+      <img src="assets/Getting Things Done.jpg" class="main-img">
+      <img src="assets/Getting Things Done.png" class="hover-img">
+    </div>
+    <div class="book-title">Getting Things Done</div>
+    <div class="author">David Allen</div>
+    <div class="price-row"><div class="price">₹179</div>
+    <a href="assets/Getting Things Done.pdf">
+      <button class="add">📖</button>
+    </a>
+  </div>
+  </article>
+
+  <!-- Book 10 -->
+  <article class="card">
+    <div class="cover-mini"><div style="font-weight:800;font-size:18px">Habit</div></div>
+    <div class="image-box">
+      <img src="assets/The Power of Habit.jpeg" class="main-img">
+      <img src="assets/The Power of Habit.png" class="hover-img">
+    </div>
+    <div class="book-title">The Power of Habit</div>
+    <div class="author">Charles Duhigg</div>
+    <div class="price-row"><div class="price">₹279</div>
+    <a href="assets/The Power of Habit.pdf">
+      <button class="add">📖</button>
+    </a>
+  </div>
+  </article>
+
+  </main>
+</body>
+</html>
